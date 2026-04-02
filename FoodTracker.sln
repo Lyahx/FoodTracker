@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTracker.Api", "FoodTracker.Api\FoodTracker.Api.csproj", "{74F8FFD2-ECB1-4911-A8C9-7F7F22054894}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTracker.Entities", "FoodTracker.Entities\FoodTracker.Entities.csproj", "{A4E217C6-6B17-4FF8-8099-4123C3E8A5BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTracker.Business", "FoodTracker.Business\FoodTracker.Business.csproj", "{8E2FE0B9-2CF7-44AD-A8CA-52354E9BD0E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodTracker.DataAccess", "FoodTracker.DataAccess\FoodTracker.DataAccess.csproj", "{F127B88A-1105-48FF-95BF-02AF7349FFFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74F8FFD2-ECB1-4911-A8C9-7F7F22054894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F8FFD2-ECB1-4911-A8C9-7F7F22054894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F8FFD2-ECB1-4911-A8C9-7F7F22054894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F8FFD2-ECB1-4911-A8C9-7F7F22054894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E217C6-6B17-4FF8-8099-4123C3E8A5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E217C6-6B17-4FF8-8099-4123C3E8A5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E217C6-6B17-4FF8-8099-4123C3E8A5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E217C6-6B17-4FF8-8099-4123C3E8A5BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E2FE0B9-2CF7-44AD-A8CA-52354E9BD0E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E2FE0B9-2CF7-44AD-A8CA-52354E9BD0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E2FE0B9-2CF7-44AD-A8CA-52354E9BD0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E2FE0B9-2CF7-44AD-A8CA-52354E9BD0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F127B88A-1105-48FF-95BF-02AF7349FFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F127B88A-1105-48FF-95BF-02AF7349FFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F127B88A-1105-48FF-95BF-02AF7349FFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F127B88A-1105-48FF-95BF-02AF7349FFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
