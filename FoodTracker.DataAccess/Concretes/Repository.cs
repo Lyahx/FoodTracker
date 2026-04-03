@@ -25,7 +25,7 @@ public class Repository<T> : IRepository<T> where T : class
 
     public async Task AddAsync(T entity)
     {
-        await _context.Set<T>().AddAsync(entity).AsTask();
+        await _context.Set<T>().AddAsync(entity);
         await _context.SaveChangesAsync();
     }
 
@@ -35,8 +35,10 @@ public class Repository<T> : IRepository<T> where T : class
         return _context.SaveChangesAsync();
     }
 
-    public Task DeleteAsync(int id)
+    public async Task DeleteAsync(int id)
     {
-        
+        var entity = await _context.Set<T>().FindAsync(id);
+        _context.Set<T>().Remove(entity);
+        await _context.SaveChangesAsync();
     }
 }
