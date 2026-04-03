@@ -3,6 +3,7 @@
 public class Campaign
 {
     public int Id { get; set; }
+    public string Name { get; set; }
     public Platform Platform { get; set; } = new Platform();
     public int PlatformId { get; set; }
     public Restaurant Restaurant { get; set; } = new Restaurant();

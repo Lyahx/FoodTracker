@@ -11,4 +11,9 @@
       <ProjectReference Include="..\FoodTracker.Entities\FoodTracker.Entities.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.17.0" />
+    </ItemGroup>
+
 </Project>
